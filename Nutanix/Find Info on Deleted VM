@@ -1,0 +1,17 @@
+#Who deleted my VM ?
+
+#You can connect to any CVM on the cluster and check the acropolis log
+
+
+#This command gives you the name of the VM deleted:
+allssh ‘grep VMDeleAudit /home/nutanix/data/logs/acropolis.out*’
+
+
+#To determine which user deleted this VM, check the ecli task list on any CVM and get the parent task UUID of a task with Type kVmDelete.
+ecli task.list
+
+[copy the task UUID from the above command output]
+
+#With the below command you will get more information about the task and especially the request context where you find the user_ip and user_name.
+ecli task.get task UUID
+(example) ecli task.get 1002c714-ea55-4aa1-a80e-932f06ca5870
