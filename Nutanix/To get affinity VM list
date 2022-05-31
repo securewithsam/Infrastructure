@@ -1,0 +1,4 @@
+#To get the list of VMs with affinity on a cluster
+
+
+for vm in `acli vm.list | awk 'NR>1{print $NF}'`; do acli vm.affinity_nodeget $vm | awk -v RS= '/default_to_all: False/'; done
