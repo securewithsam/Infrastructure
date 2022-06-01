@@ -1,0 +1,9 @@
+#Adding new drives
+
+
+ssh into proxmox
+#fdisk /dev/sde
+#P
+#d
+#w (write changes)
+Then go to pve>Disks>ZFS>Create ZFS
