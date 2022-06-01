@@ -1,0 +1,28 @@
+#To convert any OVA appliance to qcow2. 
+
+Step 1:
+Create an empty VM in proxmox gui
+SSH into proxmox 
+cd /var/lib/vz/images/
+mkdir 113
+
+Step 2:
+on the mac >cd Downloads> 
+MacBook-Pro Downloads# scp QRadarCE733GA_v1_0.ova root@10.100.100.229:/var/lib/vz/images/113/
+
+Step 3:
+SSH again into proxmox and navigate to :
+root@pve:cd /var/lib/vz/images/113 (when you do ls- you will see the file copied)
+root@pve:/var/lib/vz/images/113# tar -xvf QRadarCE733GA_v1_0.ova
+root@pve:/var/lib/vz/images/113#ls ( you will see all extracted files along with vmdk,look for file name with vmdk.
+root@pve:/var/lib/vz/images/113# qemu-img convert -f vmdk QCE-jan22-disk1.vmdk -O qcow2 QCE-jan22-disk1.qcow2
+
+[Note : if u get any error , try to delete all files in the folder (113) except .ova and then unzip it again tar -xvf QRadarCE733GA_v1_0.ova ] 
+
+Step4:
+root@pve# nano /etc/pve/qemu-server/113.conf
+
+add below lines:
+
+boot: order=ide0;net0
+ide0: file=local:113/QCE-jan22-disk1.qcow2,size=100G
