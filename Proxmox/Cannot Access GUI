@@ -1,0 +1,5 @@
+#Note: Never change IP on proxmox 
+
+If IP changed and cannot access GUI with new IP , try below:
+
+root@pve:~# pvecm expected 1 (and press enter)
