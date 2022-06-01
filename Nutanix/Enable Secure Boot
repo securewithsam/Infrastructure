@@ -1,0 +1,4 @@
+#Updating a VM to Enable Secure Boot
+
+Log on to any Controller VM in the cluster with SSH and enter the following command:
+nutanix@cvm$ acli vm.update <vm_name> secure_boot=true machine_type=q35
