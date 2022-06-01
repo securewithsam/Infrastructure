@@ -1,0 +1,16 @@
+Cluster 1 -Prism Element >Settings>Network Configuration
+
+
+Step 1:
+Prism Central>Administration>Categories>New Category
+
+Give a Name, Purpose & Values and Save
+
+Step2:
+Data Protection>Protection Policies>Create Protection Policy
+
+Add Primary location (save) Add Recovery Location
+
+Step3:
+Data Protection>Recovery Plans>Recovery Plan
+
