@@ -1,0 +1,2 @@
+ncli sp ls displays existing storage pools.
+ncli ctr ls displays existing containers.
