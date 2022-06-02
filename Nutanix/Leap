@@ -1,15 +1,21 @@
-Cluster 1 -Prism Element >Settings>Network Configuration
+Make sure to have a seperate network configured for both sites (Primary and DR) 
+BCP-Cluster-01 -Prism Element >Settings>Network Configuration + Create Network   |  MCP-Cluster-01 -Prism Element >Settings>Network Configuration + Create Network
 
 
 Step 1:
-Prism Central>Administration>Categories>New Category
+Prism Central>Administration>Categories>New Category > 
+Give a Name, Purpose & Values and Save .
 
-Give a Name, Purpose & Values and Save
 
-Step2:
-Data Protection>Protection Policies>Create Protection Policy
+Step2: 
+Assign VM to the newly created category (LeapTest)
+Dashboard>Compute & Storage>VM>under filters, find the VM >select the VM>Actions>Manage Categories>search for newly created category -LeapTest > Add + >Save
 
+
+Step3:
+Dashboard>Data Protection>Protection Policies>Create Protection Policy
 Add Primary location (save) Add Recovery Location
+
 
 Step3:
 Data Protection>Recovery Plans>Recovery Plan
