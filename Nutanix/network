@@ -1,0 +1,2 @@
+nutanix@cvm:~$ manage_ovs show_uplinks
+nutanix@cvm:~$ manage_ovs show_interfaces
