@@ -1,0 +1,6 @@
+To Set Static IP for IPMI
+
+root@ahv# ipmitool lan set 1 ipsrc static
+root@ahv# ipmitool lan set 1 ipaddr xx.xx.xx.xx
+root@ahv# ipmitool lan set 1 netmask xx.xx.xx.xx
+root@ahv# ipmitool lan set 1 defgw ipaddr xx.xx.xx.xx
