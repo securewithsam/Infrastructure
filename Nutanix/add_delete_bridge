@@ -1,0 +1,18 @@
+#To add a new bridge and create Bond via CLI:
+
+ssh into CVM 
+allssh manage_ovs show_uplinks    (to check all cvms interfaces status)
+ssh root@192.168.5.1
+ovs-vsctl add-br br2
+ovs-vsctl add-bond br2 br2-up eth0 eth1
+ovs-appctl bond/show
+exit
+
+To Delete  a Bridge from AHV :
+ssh into CVM 
+ssh root@192.168.5.1
+ovs-vsctl del-br br2
+allssh manage_ovs show_uplinks
+
+manage_ovs show_interfaces
+manage_ovs show_uplinks
