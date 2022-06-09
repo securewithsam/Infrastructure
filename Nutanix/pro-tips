@@ -1,3 +1,5 @@
 #You can determine the current Prism leader by running the following command on any CVM:
 curl localhost:2019/prism/leader
 
+#You can get cluster wide upgrade status from any Nutanix CVM by running
+'host_upgrade --status'.
