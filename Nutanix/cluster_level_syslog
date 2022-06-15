@@ -1,0 +1,13 @@
+#Enable syslog for a specific cluster - needs to be done at CVM level .
+
+
+Login to the any CVM within the cluster 
+ncli
+
+rsyslog-config set-status enable=false
+
+rsyslog-config add-server name=graylog ip-address=10.14.19.4 port=54100 network-protocol=udp relp-enabled=false
+
+rsyslog-config add-module server-name=graylog module-name=ACROPOLIS level=ALERT
+
+rsyslog-config set-status enable=true 
