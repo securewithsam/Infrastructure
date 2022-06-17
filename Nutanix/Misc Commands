@@ -1,2 +1,40 @@
 ncli sp ls displays existing storage pools.
 ncli ctr ls displays existing containers.
+
+
+
+genesis stop curator
+
+zeus_config_printer | grep "contains_metadata|disk_serial_id
+
+cs | grep -v UP [shows status of all CVMs in a cluster along with the leader info ]
+lsblk
+
+
+
+Checking Disk/Storage info :
+
+df -h  [ to check if all disks are mounted]
+list_disks
+lsscsi
+
+nodetool -h 0 ring [ to check if any cvm left the ring]
+
+
+zeus_config_printer | less   [ to make sure the disks are visible ]
+zeus_config_printer | grep -i
+
+cd data/logs
+less hades.out | grep -i '159780'
+
+ncli -h true
+<ncli> disk ls-tombstone-entries   [to view all serial #]
+
+
+cluster start  [to start curator]
+
+links http://0:2010 [ to view curator master status page for all nodes in the cluster]
+
+
+
+
