@@ -27,6 +27,8 @@ zeus_config_printer | grep -i
 cd data/logs
 less hades.out | grep -i '159780'
 
+edit-hades -p [ disk manager - to check all harddisk ]
+
 ncli -h true
 <ncli> disk ls-tombstone-entries   [to view all serial #]
 
