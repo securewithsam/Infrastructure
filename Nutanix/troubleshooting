@@ -1,7 +1,7 @@
 cs | grep -v UP
 ncc health_checks run_all
 nodetool -h 0 ring 
-zeus_config_printer | grep -i
+zeus_config_printer
 edit-hades -p
 links http://0:2010
 
