@@ -18,5 +18,7 @@ to analyze the dump , winscp to the path above /tmp and download the file and us
 ## To check vswitch logs 
 
 Login to host
+```sh
 cd /var/log/openvswitch/
 ls
+```
