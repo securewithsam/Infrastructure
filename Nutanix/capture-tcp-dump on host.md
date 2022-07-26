@@ -13,3 +13,10 @@ virsh dumpxml 'enter uuid here' from the above command to know the tap interface
 tcpdump -i tap0 -w /tmp/somename01.pcap
 ```
 to analyze the dump , winscp to the path above /tmp and download the file and use wireshark .
+
+
+## To check vswitch logs 
+
+Login to host
+cd /var/log/openvswitch/
+ls
