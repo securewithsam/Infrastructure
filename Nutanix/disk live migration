@@ -1,0 +1,1 @@
+acli vm.update_container MVD-VARSQL-01 container=MCP-NTX-01-VM-Infra wait=false
