@@ -1,0 +1,11 @@
+diskpart
+san
+san policy=OnlineAll
+
+list disk
+select Disk 2
+attributes disk
+attributes disk clear readonly
+online disk
+
+reboot
