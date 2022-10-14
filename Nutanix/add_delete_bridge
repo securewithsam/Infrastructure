@@ -16,3 +16,7 @@ allssh manage_ovs show_uplinks
 
 manage_ovs show_interfaces
 manage_ovs show_uplinks
+
+
+Add
+manage_ovs --bridge br1 --interfaces eth4 --bond_name eth4 --bond_mode active-backup update_uplinks
