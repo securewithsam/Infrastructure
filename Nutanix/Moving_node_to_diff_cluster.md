@@ -35,7 +35,7 @@
  exit
 
 Step 5:
-Login into CVM
+Login into CVM to match the bond config for newely created bridge br1
  ```sh
 manage_ovs --bridge br1 --interfaces eth4 --bond_name eth4 --bond_mode active-backup update_uplinks
 ```
