@@ -20,10 +20,7 @@
  Step 4:
  Create new bridge 1
  ssh into AHV (root@192.168.5.1)
-  ```sh
- allssh manage_ovs show_uplinks
- ```
-  ```sh
+   ```sh
  ovs-vsctl add-br br1
  ```
   ```sh
