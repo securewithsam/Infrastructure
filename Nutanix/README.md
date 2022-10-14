@@ -1,3 +1,5 @@
+## Nutanix Cluster Components
+
 #### Stargate- Data I/O manager
 #### Cassandra- Key Role : Distributed metadata store
 #### Curator- Manage and distribute task throughout the cluster
