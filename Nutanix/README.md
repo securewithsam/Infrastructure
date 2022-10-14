@@ -1,12 +1,12 @@
-Stargate- Data I/O manager
-Cassandra- Key Role : Distributed metadata store
-Curator- Manage and distribute task throughout the cluster
-Zookeeper-Cluster configuration manager
-Prism - User Interface and API management 
+## Stargate- Data I/O manager
+## Cassandra- Key Role : Distributed metadata store
+## Curator- Manage and distribute task throughout the cluster
+## Zookeeper-Cluster configuration manager
+## Prism - User Interface and API management 
 
 
 
-#Nutanix Abbreviations:
+## Nutanix Abbreviations:
 
 HCI (hyperconverged infrastructure)
 AHV - (Acropolis Hypervisor)
@@ -29,7 +29,7 @@ Self Service Restore (SSR)
 cross-hypervisor disaster recovery (CHDR)
 
 
-#Networking
+## Networking
 
 Linux Bridge (Virbr0) is used for internal communication (Mgmt & Storage) traffic between CVM & AHV Host/Node
 OVS bridge (br0) This bridge connects to the physical switch 
@@ -38,7 +38,7 @@ br0-up - Bonded/NiC Teaming  to connecting to physical NIC
 VXLAN - Used for IP Address management
 
 
-Bond Modes:
+## Bond Modes:
 Active-Backups : Traffic from all VMs is sent thru single NIC ,if that NIC fails, the 2nd NIC is active (bandwidth of single adapter is used )  NO CHANGES TO PHYSICAL SWITCH IS REQUIRED
 Balance-SLB: Traffic can be sent via both NICs and full bandwidth is used ( NO CHANGES TO PHYSICAL SWITCH IS REQUIRED)
 LACP with balance-tcp :  CHANGES TO PHYSICAL SWITCH IS REQUIRED
