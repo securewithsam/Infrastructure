@@ -1,8 +1,8 @@
-## Stargate- Data I/O manager
-## Cassandra- Key Role : Distributed metadata store
-## Curator- Manage and distribute task throughout the cluster
-## Zookeeper-Cluster configuration manager
-## Prism - User Interface and API management 
+#### Stargate- Data I/O manager
+#### Cassandra- Key Role : Distributed metadata store
+#### Curator- Manage and distribute task throughout the cluster
+#### Zookeeper-Cluster configuration manager
+#### Prism - User Interface and API management 
 
 
 
