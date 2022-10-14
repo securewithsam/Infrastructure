@@ -1,0 +1,15 @@
+ Step 1:
+ Mark the node for removal 
+ 
+ Step 2:
+ Install AOS using foundation ( Match the version)
+ 
+ Step 3:
+ Configure network /bond via CVM
+ 
+ Step 4:
+ Expand cluster 
+ 
+ 
+ 
+ 
