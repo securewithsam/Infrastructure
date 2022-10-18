@@ -10,7 +10,7 @@ ncli
 rsyslog-config set-status enable=false
 ```
 ```sh
-rsyslog-config add-server name=Rapid7 relp-enabled={true} ip-address=10.145.190.80 port=5678 network-protocol={ udp }
+rsyslog-config add-server name=Rapid7 relp-enabled={true} ip-address=10.145.190.88 port=5678 network-protocol={ udp }
 ```
 ```sh
 rsyslog-config ls-servers
