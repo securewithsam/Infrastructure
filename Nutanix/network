@@ -1,2 +1,7 @@
 nutanix@cvm:~$ manage_ovs show_uplinks
 nutanix@cvm:~$ manage_ovs show_interfaces
+
+Login to AHV :
+ ethtool eth0
+ifconfig eth0 down
+ifconfig eth0 up
