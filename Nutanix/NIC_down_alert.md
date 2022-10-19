@@ -5,7 +5,7 @@
 ```sh
 allssh cat /home/nutanix/data/serviceability/check_cvm_health_job_state.json
 ```
-Delete the interfaces  lines eth0 eth1
+Delete the interfaces  lines eth0 eth1 (use ctrl k)
 ```sh
 nano /home/nutanix/data/serviceability/check_cvm_health_job_state.json
 ```
