@@ -1,0 +1,5 @@
+
+acli host.enter_maintenance_mode 172.16.15.33 
+ncli host list
+ncli host edit id=2534172213 enable-maintenance-mode=true
+genesis status | grep -v "\[\]"
