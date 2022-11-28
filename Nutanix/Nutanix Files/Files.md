@@ -4,6 +4,9 @@ ncli fs ls
 ```
 ### ssh 10.xx.xx.41 (FSVM IP)
 ```sh
+afs
+```
+```sh
 share.owner_fsvm (Folder Name)
 share.owner_fsvm IT
 ```
