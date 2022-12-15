@@ -8,4 +8,7 @@ diskpart>select disk 1
 diskpart>online disk 
 diskpart> attrib disk clear readonly
 
+Go to disk management, initialize disk and format 
+
 reboot
+
