@@ -1,0 +1,8 @@
+When data disk is added and is showing as offline 
+
+
+CMD> Diskpart
+san policy=OnlineAll
+List disk 
+select disk 1
+online disk 
