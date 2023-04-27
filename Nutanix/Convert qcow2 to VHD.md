@@ -30,7 +30,7 @@ qemu-img convert -f raw -o subformat=fixed -O vpc 3a32b468-62fa-46ae-951e-99e13e
 ```
 
 
-#### Note: Azure supports only rounded size 12G or 256G ,
+#### Note: Azure supports only rounded size 128G or 256G ,
 #### Resize the above image 
 
 ```sh
