@@ -1,4 +1,8 @@
 
+#### Export the VM to qcow2 in prism central 
+
+
+
 ```sh
 Step One: Extract Disk Image from OVA
 tar -xvf wfmqcow2.ova
