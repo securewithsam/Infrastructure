@@ -28,3 +28,11 @@ qemu-img convert -f qcow2 -O raw 3a32b468-62fa-46ae-951e-99e13e6fa7fa.qcow2 3a32
 Step Four: 
 qemu-img convert -f raw -o subformat=fixed -O vpc 3a32b468-62fa-46ae-951e-99e13e6fa7fa.raw 3a32b468-62fa-46ae-951e-99e13e6fa7fa.vhd
 ```
+
+
+#### Note: Azure supports only rounded size 12G or 256G ,
+#### Resize the above image 
+
+```sh
+qemu-img resize -f qcow2 3a32b468-62fa-46ae-951e-99e13e6fa7fa.qcow2 256G
+```
