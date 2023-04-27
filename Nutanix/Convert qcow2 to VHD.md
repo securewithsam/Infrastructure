@@ -1,5 +1,5 @@
 
-
+```sh
 Step One: Extract Disk Image from OVA
 tar -xvf wfmqcow2.ova
 
@@ -17,3 +17,4 @@ qemu-img convert -f qcow2 -O raw 3a32b468-62fa-46ae-951e-99e13e6fa7fa.qcow2 3a32
 
 Step Four: 
 qemu-img convert -f raw -o subformat=fixed -O vpc 3a32b468-62fa-46ae-951e-99e13e6fa7fa.raw 3a32b468-62fa-46ae-951e-99e13e6fa7fa.vhd
+```
