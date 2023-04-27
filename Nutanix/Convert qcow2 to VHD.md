@@ -1,8 +1,14 @@
 
 #### Export the VM to qcow2 in prism central 
 
+```sh
+Login to Prism
+Select the VM > Actions > Export as OVA > Select QCOW2 > Save it on local disk .
 
+WinSCP into any Linux VM 
+Copy the above qcow2 file and follow the steps below 
 
+```
 ```sh
 Step One: Extract Disk Image from OVA
 tar -xvf wfmqcow2.ova
