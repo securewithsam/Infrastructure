@@ -1,5 +1,5 @@
 
-#### Export the VM to qcow2 in prism central 
+#### How to convert QCOW2 to VHD (From Nutanix to Azure)
 
 ```sh
 Login to Prism
