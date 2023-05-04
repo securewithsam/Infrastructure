@@ -41,6 +41,6 @@ VXLAN - Used for IP Address management
 
 
 ## Bond Modes:
-Active-Backups : Traffic from all VMs is sent thru single NIC ,if that NIC fails, the 2nd NIC is active (bandwidth of single adapter is used )  NO CHANGES TO PHYSICAL SWITCH IS REQUIRED
-Balance-SLB: Traffic can be sent via both NICs and full bandwidth is used ( NO CHANGES TO PHYSICAL SWITCH IS REQUIRED)
-LACP with balance-tcp :  CHANGES TO PHYSICAL SWITCH IS REQUIRED
+<br>Active-Backups : Traffic from all VMs is sent thru single NIC ,if that NIC fails, the 2nd NIC is active (bandwidth of single adapter is used )  NO CHANGES TO PHYSICAL SWITCH IS REQUIRED<br>
+<br>Balance-SLB: Traffic can be sent via both NICs and full bandwidth is used ( NO CHANGES TO PHYSICAL SWITCH IS REQUIRED)<br>
+<br>LACP with balance-tcp :  CHANGES TO PHYSICAL SWITCH IS REQUIRED<br>
