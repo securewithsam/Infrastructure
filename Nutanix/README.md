@@ -10,7 +10,7 @@
 
 ## Nutanix Abbreviations:
 
-HCI (hyperconverged infrastructure)
+<br>HCI (hyperconverged infrastructure) <br>
 AHV - (Acropolis Hypervisor)
 Acropolis OS(AOS)
 CVM (Controller VM)
