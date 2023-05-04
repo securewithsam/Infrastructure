@@ -11,24 +11,24 @@
 ## Nutanix Abbreviations:
 
 <br>HCI (hyperconverged infrastructure) <br>
-AHV - (Acropolis Hypervisor)
-Acropolis OS(AOS)
-CVM (Controller VM)
-NCC (Nutanix Cluster Check)
-LCM- (Life Cycle Manager)
-AMF(app mobility fabric)
-DSF (Distributed Storage Fabric)
-AFS- Acropolis Files Services
-ABS- Acropolis Block Services
-OVS- Open vSwitch
-ADS- Acropolis Dynamic Scheduling (Like DRS in vSphere)
-EC - (Erasure coding)
-SCMA- (Security Configuration Management Automation)
-RPO- (Recovery Point Objective )
-RTO- (Recovery Time Objective)
-CALM- Cloud Automation LifeCycle Manager
-Self Service Restore (SSR)
-cross-hypervisor disaster recovery (CHDR)
+<br>AHV - (Acropolis Hypervisor)<br>
+<br>Acropolis OS(AOS)<br>
+<br>CVM (Controller VM)<br>
+<br>NCC (Nutanix Cluster Check)<br>
+<br>LCM- (Life Cycle Manager)<br>
+<br>AMF(app mobility fabric)<br>
+<br>DSF (Distributed Storage Fabric)<br>
+<br>AFS- Acropolis Files Services<br>
+<br>ABS- Acropolis Block Services<br>
+<br>OVS- Open vSwitch<br>
+<br>ADS- Acropolis Dynamic Scheduling (Like DRS in vSphere)<br>
+<br>EC - (Erasure coding)<br>
+<br>SCMA- (Security Configuration Management Automation)<br>
+<br>RPO- (Recovery Point Objective )<br>
+<br>RTO- (Recovery Time Objective)<br>
+<br>CALM- Cloud Automation LifeCycle Manager<br>
+<br>Self Service Restore (SSR)<br>
+<br>cross-hypervisor disaster recovery (CHDR)<br>
 
 
 ## Networking
