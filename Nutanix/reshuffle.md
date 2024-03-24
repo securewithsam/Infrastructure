@@ -72,10 +72,12 @@ If the hostname is still same and did not update to the new, then add the node t
 
 ### After expansion is completed ,the cluster will complain about Inconsistent virtual switch , SSH into AHV , delete and re add the vswitch .
 ```sh
-acli net.list_virtual_switch
+
+acli net.disable_virtual_switch
 acli net.migrate_br_to_virtual_switch br0 vs_name=vs0
 acli net.migrate_br_to_virtual_switch br2 vs_name=DMZ
 acli net.list_virtual_switch
+acli net.enable_virtual_switch
 ```
  
 
