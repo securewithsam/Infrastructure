@@ -1,4 +1,4 @@
-### Adding G7 nodes in a different cluster in a different DC
+## Reshuffling  G7 nodes from Datacenter A to Datacenter B in a different cluster .
 
 ### Step 1: Mark node for removal in prism element
 ![image](https://github.com/securewithsam/Virtualization/assets/85324643/88dd0134-2ab0-40be-8c17-c13030cb4238)
