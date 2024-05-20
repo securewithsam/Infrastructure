@@ -8,6 +8,9 @@
 #### Go to PVE shell and add the line below to set MTU 
 
 ```sh
+nano /etc/network/interfaces
+```
+```sh
 pre-up ip link set ens2f1np1 mtu 9000
 ```
 ![image](https://github.com/securewithsam/Virtualization/assets/85324643/ad50608b-f078-4568-88cc-33a8cb66fbdf)
