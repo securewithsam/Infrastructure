@@ -1,4 +1,4 @@
-#### Setup Proxmox with 10GbE Network 
+## Setup Proxmox with 10GbE Network 
 
 ##### Connect te DAC /FC cable from the Server SFP+ port to the 10G Switch and create a new vmbr1 
 
